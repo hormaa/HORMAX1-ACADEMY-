@@ -1,0 +1,8 @@
+{
+  "name": "hormax1-deploy",
+  "version": "1.0.0",
+  "scripts": {
+    "build": "unzip -o HORMAX1-ACADEMY-source-backup.zip -d . && cd HORMAX1-ACADEMY && npm install && npm run build",
+    "start": "cd HORMAX1-ACADEMY && npm start"
+  }
+}
